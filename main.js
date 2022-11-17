@@ -1,1 +1,1 @@
-document.getElementById('myButton')
+alert("test")
