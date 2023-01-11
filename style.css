@@ -25,11 +25,9 @@ li a,
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
     font-size: larger;
-    
+
 
 }
-
-
 
 
 .navbarbtn {
@@ -52,7 +50,6 @@ li a:hover,
 li.dropdown {
     display: inline-block;
 }
-
 
 
 .dropdown .dropbtn {
@@ -115,11 +112,11 @@ h1 {
     font-weight: 700;
     display: flex;
     justify-content: center;
-    
+
     color: rgb(0, 0, 0);
 }
 
-h2{
+h2 {
     font-size: 3rem;
     font-weight: 700;
     display: flex;
@@ -153,7 +150,7 @@ img {
     margin: 20px
 }
 
-.buttongame{
+.buttongame {
     text-decoration: none;
     color: #ffffff;
     padding: 20px 30px;
@@ -172,23 +169,89 @@ img {
     align-items: center;
 }
 
-section{
+section {
     min-height: 100vh;
 }
 
-.section1{
-display: flex;
-flex-direction: column;
-justify-content: center;
-background-image: url("fotos/13295.gif");
-background-repeat: no-repeat;
-background-size: cover;
+.section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("fotos/13295.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
-footer{
-   background-color:rgb(29, 29, 29);
-   margin-bottom: 0;
+footer {
+    background-color: rgb(29, 29, 29);
+    margin-bottom: 0;
 }
 
 
+
+
+
+
+
+/*code voor de tcr contact page-Tishanty*/
+.tcr body{
+    background-color: black;
+}
+
+i:hover {
+    color: lightgrey;
+}
+.tcr-h{
+    font-size: 1em;
+    color: white;
+    align-self: flex-start;
+}
+#p {
+    color: darkgreen;
+}
+
+i {
+    justify-content: center;
+    align-self: center;
+    color: white;
+    font-size: 6em;
+}
+
+article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+label {
+    color: white;
+    margin-left: 1em;
+}
+
+.contact-tcr {
+    flex-direction: column;
+}
+
+.contact-tcr p {
+    font-family: Poppins;
+    font-size: 1em;
+    border: none;
+    padding: 1em;
+}
+
+.tcr-form {
+    padding-bottom: 30px;
+}
+
+.tcr {
+    border: 3em solid darkgreen;
+}
+
+.tcr-logo {
+    position: absolute;
+    right: 350px;
+    top: 405px;
+}
+
+/*code voor de tcr contact page*/
