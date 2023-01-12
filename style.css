@@ -177,7 +177,7 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url("fotos/13295.gif");
+    background-image: url("images/13295.gif");
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -254,4 +254,32 @@ label {
     top: 405px;
 }
 
-/*code voor de tcr contact page*/
+/* game css */
+
+.bodygame{
+
+    overflow: hidden;
+    height: 100vh;
+    background: linear-gradient(
+        0deg,
+        rgb(26, 26, 26) 0%,
+        rgb(0, 0, 0) 80%
+    ) ;
+}
+
+#gameCanvas{
+    box-shadow: 10px 10px 20px rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+
+
