@@ -268,11 +268,12 @@ label {
 }
 
 #gameCanvas{
-    box-shadow: 10px 10px 20px rgb(255, 255, 255);
+    box-shadow: 10px 10px 20px rgb(0, 0, 0);
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+    
 }
 
 h2{
@@ -280,6 +281,8 @@ h2{
     font-family: 'Poppins', sans-serif;
     color: rgb(255, 255, 255);
 }
+
+
 
 
 
