@@ -1,5 +1,5 @@
 # Game-Project
-A mario-like game Project made by PALVSOD1D
+A pac-man game Project made by PALVSOD1D
 
 ## Authors
 - [@kevintroost](https://github.com/kevintroost)
