@@ -1,4 +1,4 @@
-import Pacman from "./character.js";
+import Pacman from "./Character.js";
 
 export default class TileMap {
     constructor(tileSize) {
