@@ -55,7 +55,7 @@ function drawGameEnd() {
   if (gameOver || gameWin) {
     let text = " You Win!";
     if (gameOver) {
-      text = "Game Over";
+      text = "Skill issue";
     }
 
     ctx.fillStyle = "black";
